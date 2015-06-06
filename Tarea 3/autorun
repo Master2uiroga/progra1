@@ -2,8 +2,8 @@
 
 mkdir tarea3.tmp
 cd tarea3.tmp
-curl https://github.com/Master2uiroga/progra1/raw/master/Tarea%203/Makefile -O Makefile
-curl https://github.com/Master2uiroga/progra1/blob/master/Tarea%203/Tarea3.c
+curl https://raw.githubusercontent.com/Master2uiroga/progra1/master/Tarea%203/Makefile >> Makefile
+curl https://raw.githubusercontent.com/Master2uiroga/progra1/master/Tarea%203/Tarea3.c >> Tarea3.c
 make
 ./Tarea3
 make clean
