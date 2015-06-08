@@ -1,8 +1,7 @@
 #! /bin/sh
 
-mkdir tarea3.tmp
-curl https://raw.githubusercontent.com/Master2uiroga/progra1/master/Tarea%203/Makefile >> tarea3.tmp/Makefile
-curl https://raw.githubusercontent.com/Master2uiroga/progra1/master/Tarea%203/Tarea3.c >> tarea3.tmp/Tarea3.c
-make tarea3.tmp/Tarea3
-./tarea3.tmp/Tarea3
-rm -rf tarea3.tmp
+curl https://raw.githubusercontent.com/Master2uiroga/progra1/master/Tarea%203/Makefile >> Makefile
+curl https://raw.githubusercontent.com/Master2uiroga/progra1/master/Tarea%203/Tarea3.c >> Tarea3.c
+make Tarea3
+make clean
+rm -rf Tarea3.c Makefile Tarea3
