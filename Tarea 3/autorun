@@ -3,5 +3,6 @@
 curl https://raw.githubusercontent.com/Master2uiroga/progra1/master/Tarea%203/Makefile >> Makefile
 curl https://raw.githubusercontent.com/Master2uiroga/progra1/master/Tarea%203/Tarea3.c >> Tarea3.c
 make Tarea3
+./Tarea3
 make clean
 rm -rf Tarea3.c Makefile Tarea3
