@@ -13,7 +13,7 @@
 #define CYAN      "\x1b[36m"
 #define SINCOLOR  "\x1b[0m"
 #define NELEMS(x) (sizeof(x)/sizeof(*(x)))
-#define __author__ "Víctor Gerardo González Quiroga"
+#define __author__ "Víctor Quiroga"
 
 /*******************************************************************************
  * banner. Imprime un banner de bienvenida que dice 'Tarea 3'.
